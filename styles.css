@@ -1,8 +1,5 @@
 html, body {
     height: 100%;
-    
-    
-
 }
 
 html {
@@ -43,4 +40,13 @@ a:hover {
 
 a:active {
   color: light-blue;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
 }
