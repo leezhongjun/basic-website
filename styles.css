@@ -2,7 +2,7 @@ html, body {
     height: 100%;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    background-image: "background.gif";
+
 }
 
 html {
@@ -13,6 +13,7 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
+    background-image: "background.gif";
     
     
     
