@@ -27,11 +27,11 @@ input[type="file"] {
 }
 
 a:link {
-  color: light-red;
+  color: #ff8080;
 }
 
 a:visited {
-  color: light-green;
+  color: #66ff99;
 }
 
 a:hover {
@@ -39,11 +39,11 @@ a:hover {
 }
 
 a:active {
-  color: light-blue;
+  color: #99ddff;
 }
 
 table, td, th {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 table {
