@@ -8,8 +8,9 @@ html {
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     display: table-cell;
     vertical-align: middle;
     background-image: "background.gif";
-    font-family: 'Montserrat', sans-serif;
+    
 }
