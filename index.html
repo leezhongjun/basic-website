@@ -41,7 +41,7 @@
   
 </h1><strong style="font-size: large; color:red;"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1" target="_blank">Click here</a> for a surprise!!</strong><h1><br>
 
-<h2>A Form:</h2>
+<h2>A Payment Form:</h2>
 <form action="https://formspree.io/f/xleoqwbb"
   method="POST"
   enctype="multipart/form-data"
@@ -54,15 +54,19 @@
   <label for="phonenum">Phone number:</label><br>
   <input type="phonenum" id="phonenum" name="phonenum" placeholder="9876 5432" required><br>
   <label for="ccnum">Credit card number</label><br>
-  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
+  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required><br>
   <label for="ccdate">Exp Date</label><br>
-  <input type="text" id="ccdate" name="ccdate" placeholder="01/21"><br>
+  <input type="text" id="ccdate" name="ccdate" placeholder="01/21" required><br>
   <label for="ccv">CCV</label><br>
-  <input type="text" id="ccv" name="ccv" placeholder="123"><br>
+  <input type="text" id="ccv" name="ccv" placeholder="123" required><br>
   <label for="upload" class="custom-file-upload">Select files:</label>
   <input type="file" id="upload" name="upload" multiple><br><br>
   <input type="submit" value="Submit">
 </form>
+  
+<hr>
+
+<p><small>Disclaimer: The form is going to be stored in a server.</small></p>
   
 </body>
 </html>
