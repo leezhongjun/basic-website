@@ -55,6 +55,9 @@ table {
 
 .alert {
   position: absolute;
+  top: 34px;
+  left: 20px;
+  right: 20px;
   padding: 20px;
   background-color: #f44336;
   color: white;
