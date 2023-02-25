@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("background.gif");
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+a:link {
+  color: #ff8080;
+}
+
+a:visited {
+  color: #66ff99;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: #99ddff;
+}
+
+table, td, th {
+  border: 1px solid white;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
